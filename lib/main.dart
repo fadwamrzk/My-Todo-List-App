@@ -30,8 +30,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'My ToDo List',
       theme: ThemeData(
-        //primarySwatch: Colors.blue,
-
         brightness:  Brightness.light,
         appBarTheme: AppBarTheme(
           color: Colors.indigo, // Set the app bar color to red
