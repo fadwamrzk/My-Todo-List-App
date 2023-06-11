@@ -28,7 +28,6 @@ class TodoListProvider with ChangeNotifier {
 
       );
 
-      //list.add(newTodo);
       list.add(newTodo);
       notifyListeners();
     } catch (e) {
